@@ -1,0 +1,169 @@
+body {
+	background-image: url("../images/bg.jpg");
+	background-size: 100%;
+}
+
+a {
+    background-color: red;
+    border-color: green;
+    border-width: 16px;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+	background-color: green;
+}
+
+table {
+	margin-top: 5%;
+	margin-left: 10%;
+	border-collapse: collapse;
+	border: 4px solid green;
+	width: 80%;
+}
+
+table td {
+	text-align: center;
+}
+
+th {
+	background: green;
+}
+
+th, td {
+	padding: 15px;
+	text-align: center;
+}
+
+ul.navigate {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+}
+
+li, a {
+    display: block;
+    border-radius: 25px;
+}
+
+li a.active {
+    background-color: green;
+    color: white;
+}
+
+li {
+	float: left;
+}
+
+input[type=text], input[type=password]{
+	padding: 8px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=textarea] {
+	padding: 8px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    height: 80px;
+    width: 515px;
+}
+
+input[type=radio] {
+	margin: 0 10px 0 0;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+/*a.link {
+	background-color: red;	
+}
+
+a.link:hover {
+	background-color: green;
+}*/
+div.content a:link, a:visited {
+    background-color: red;
+    border-color: green;
+    border-width: 16px;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+div.content a:hover {
+	background-color: green;
+}
+
+div.reg {
+	margin-top: 5%;
+	margin-left: 40%;
+}
+
+div.reg a {
+	background-color: red;	
+	display: inline-block;
+}
+
+div.reg a:hover {
+	background-color: green;
+}
+
+div.que {
+	margin-top: 5%;
+	margin-left: 20%;
+}
+
+div.que a {
+	background-color: red;	
+	display: inline-block;
+}
+
+div.que a:hover {
+	background-color: green;
+}
+
+
+h1, h2 {
+	text-align: center;
+}
+
+div.login {
+	margin-top: 5%;
+	margin-left: 40%;
+}
+
+.submit {
+	background-color: red;
+	width: 100px;
+	height: 40px;
+}
+
+.submit:hover {
+	background-color: green;
+}
+
+
+div.tablelink {
+	width: 200px;
+}
+
+div.tablelink a {
+	background-color: red;	
+}
+
+div.tablelink a:hover {
+	background-color: green;
+}
+
+
+p.text {
+	margin-left: 30%;
+	margin-right: 30%;
+	justify-content: space-between;
+}
